@@ -38,12 +38,8 @@ These options need to be placed under the **[filechooser]** section.
 	The default wrapper script is provided at
 	/usr/share/xdg-desktop-portal-termfilechooser/ranger-wrapper.sh, and is
 	configured to launch the ranger file manager to select files.
-	By default, the wrapper script will use $TERMCMD if available. Otherwise,
-	it will fallback to "/usr/bin/kitty".
-	You can copy and edit the script to change this.
 
-	An example wrapper script which uses fd and fzf can also be found at
-	/usr/share/xdg-desktop-portal-termfilechooser/fzf-wrapper.sh.
+	Other example wrapper scripts are provided in the _contrib_ directory.
 
 **default_dir** = _directory_
 	Default directory to save files in, if the invoking program does not
