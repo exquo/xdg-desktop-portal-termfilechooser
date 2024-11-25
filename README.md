@@ -92,3 +92,19 @@ and additional options: `--multiple`, `--directory`, `--save`.
 
 Firefox has a setting in its `about:config` to always use the XDG desktop portal's file chooser: set `widget.use-xdg-desktop-portal.file-picker` to `1`. See https://wiki.archlinux.org/title/Firefox#XDG_Desktop_Portal_integration.
 
+## Project maintenance status
+
+The [original repo](https://github.com/GermainZ/xdg-desktop-portal-termfilechooser) is [not maintained](https://github.com/GermainZ/xdg-desktop-portal-termfilechooser/issues/12#issuecomment-2085756209).
+
+This fork contains some minor changes, namely the installation instructions in the README, and code refactoring in the `contrib` wrapper scripts. It is [not intended](https://github.com/exquo/xdg-desktop-portal-termfilechooser/pull/1#issuecomment-2435226705) to be a "successor" or the new active fork.
+Another [fork](https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser) differs in some choices in the wrapper scripts' code.
+There might be an [alternative implementation](https://github.com/Guekka/xdg-desktop-portal-termfilepickers). "It's still very WIP but seems to work["](https://github.com/NixOS/nixpkgs/pull/277531#discussion_r1718301325).
+
+New issues with the main `termfilechooser` codebase can still be submitted to the [original repo](https://github.com/GermainZ/xdg-desktop-portal-termfilechooser/issues). Questions about the installation process and troubleshooting, as well as general discussions can be opened [here](https://github.com/boydaihungst/xdg-desktop-portal-termfilechooser/discussions).
+
+Permanent maintainers needed! Particularly for the "core" C code of the project.
+
+
+[xdg-desktop-portal]: https://github.com/flatpak/xdg-desktop-portal
+[xdg-desktop-portal-wlr]: https://github.com/emersion/xdg-desktop-portal-wlr
+[ranger]: https://ranger.github.io/

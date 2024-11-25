@@ -32,20 +32,18 @@ cmd=/usr/share/xdg-desktop-portal-termfilechooser/ranger-wrapper.sh
 These options need to be placed under the **[filechooser]** section.
 
 **cmd** = _command_
-	Command to execute. For invocation details, please refer to the default
-	wrapper script.
 
-	The default wrapper script is provided at
-	/usr/share/xdg-desktop-portal-termfilechooser/ranger-wrapper.sh, and is
-	configured to launch the ranger file manager to select files.
+Command to execute. For invocation details, please refer to the default wrapper script.
 
-	Other example wrapper scripts are provided in the _contrib_ directory.
+The default wrapper script is provided at /usr/share/xdg-desktop-portal-termfilechooser/ranger-wrapper.sh, and is configured to launch the ranger file manager to select files.
+
+Other example wrapper scripts are provided in the _contrib_ directory.
 
 **default_dir** = _directory_
-	Default directory to save files in, if the invoking program does not
-	provide one.
 
-	The default value is /tmp.
+Default directory to save files in, if the invoking program does not provide one.
+
+The default value is /tmp.
 
 # SEE ALSO
 
