@@ -26,6 +26,12 @@ save=$3
 path=$4
 out=$5
 
+# Workaround for
+# 	https://github.com/GermainZ/xdg-desktop-portal-termfilechooser/issues/15
+# when saving files with names containing the `#` character.
+path=$(echo "$path" | sed 's/\#/♯/g')
+#path=${path/\#/z} # A bash-only method
+
 default_termcmd () {
 	# Picking the default terminal emulator. Similar to
 	# 	https://github.com/i3/i3/blob/next/i3-sensible-terminal
